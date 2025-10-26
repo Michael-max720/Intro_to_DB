@@ -1,8 +1,17 @@
-INSERT INTO Customers (Customer_id, Customer_name, Email, Address)
-VALUES (2, 'Blessing Malik', 'bmalik@sandtech.com', '124 Happiness Ave.');
+INSERT INTO Customers
+SET Customer_id = 2,
+    Customer_name = 'Blessing Malik',
+    Email = 'bmalik@sandtech.com',
+    Address = '124 Happiness Ave.';
 
-INSERT INTO Customers (Customer_id, Customer_name, Email, Address)
-VALUES (3, 'Obed Ehoneah', 'eobed@sandtech.com', '125 Happiness Ave.');
+INSERT INTO Customers
+SET Customer_id = 3,
+    Customer_name = 'Obed Ehoneah',
+    Email = 'eobed@sandtech.com',
+    Address = '125 Happiness Ave.';
 
-INSERT INTO Customers (Customer_id, Customer_name, Email, Address)
-VALUES (4, 'Nehemial Kamolu', 'nkamolu@sandtech.com', '126 Happiness Ave.');
+INSERT INTO Customers
+SET Customer_id = 4,
+    Customer_name = 'Nehemial Kamolu',
+    Email = 'nkamolu@sandtech.com',
+    Address = '126 Happiness Ave.';
