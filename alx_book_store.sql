@@ -17,7 +17,7 @@ CREATE TABLE Customers(
     Email VARCHAR(215) UNIQUE=TRUE  NOT NULL,
     Address TEXT NOT NULL 
 );
-CREATE TABLE orders(
+CREATE TABLE Orders(
     Order_id INT AUTO_INCREMENT PRIMARY KEY,
     Order_date DATE,
     FOREIGN KEY (Customer_id) REFERENCES Customers(Customer_id)

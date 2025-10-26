@@ -5,6 +5,7 @@ try:
     host ="localhost",
     user="root",
     password="1234",
+    database="alx_book_store"
     )
     if connection.is_connected():
         print("successfull connected to MYSQL")
